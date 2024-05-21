@@ -1,0 +1,82 @@
+.pillow{
+    border: 3px seashell;
+    margin: -4px;
+    height: 227px;
+}
+.pillow > section{
+    display: inline-block;
+}
+.image1{
+        border: 2px rgb(206, 203, 200);
+        width: 250px;
+        border-radius: 1px;
+        padding: 20px 0px;
+    }
+.images2{
+    width: 200px;
+}
+.prodect-d{
+    table-layout: fixed;
+    text-align: center;
+    margin: -199px 185px 164px 275px;
+}
+.rating{
+padding: 4px 5px;
+    background-color: black;
+    margin: 3px 4px;
+    color: white;
+    border-radius: 10px;
+}
+.describetion{
+    cursor: pointer;
+}
+.price-d{
+        margin-right: 30px;
+        font-weight: 800;
+        font-size: 19px;
+}
+.per-offf{
+       color: #dc3a11;
+        padding: 9px;
+        margin: 7px;
+}
+.orgi-p{
+text-decoration: line-through;
+color: darkkhaki;
+    padding: 11px;
+    margin: 5px;
+}
+.dis-p{
+padding: 11px;
+margin: 4px;
+}
+.button{
+    padding: 12px;
+        text-align: center;
+}
+.btn1,
+.btn2{
+    margin-right: 60px;
+        font-weight: bold;
+        border-radius: 8px;
+        padding: 8px 14px;
+        color: white;
+        cursor: pointer;
+        border: none;
+}
+.btn1{
+    background-color: rgb(232, 11, 136);
+
+}
+.btn2{
+    background-color: chartreuse;
+}
+.btn1:hover{
+background-color: brown;
+}
+.btn2:hover{
+    color: yellow;
+}
+.heading2{
+    color: #dc3a11;
+}

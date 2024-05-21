@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1d2a35;
+  color: white;
+}
+header > nav {
+  height: 2rem;
+  border: 1px solid;
+}
+.main-section {
+  display: flex;
+}
+.sidebar {
+  width: 250px;
+  min-width: 250px;
+  background-color: #15202b;
+  padding: 1.5rem;
+  overflow: auto;
+  height: 89vh;
+}
+.sidebar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.sidebar .list-item:hover {
+  background-color: blueviolet;
+  color: chartreuse;
+}
+
+.sidebar-list .list-item {
+  list-style: none;
+}
+.container {
+  padding: 1rem;
+  overflow: auto;
+  height: 89vh;
+}

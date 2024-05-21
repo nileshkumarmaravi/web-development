@@ -1,0 +1,26 @@
+:root:hover {
+  --bg-color: rgb(42, 108, 165);
+  --font-size: 20px;
+  --color: rgb(71, 217, 71);
+  --transition: all;
+}
+div {
+  background-color: var(--bg-color);
+  font-size: var(--font-size);
+  color: var(--color);
+}
+p {
+  background-color: var(--bg-color);
+  font-size: var(--font-size);
+  color: var(--color);
+}
+article {
+  background-color: var(--bg-color);
+  font-size: var(--font-size);
+  color: var(--color);
+}
+section {
+  background-color: var(--bg-color);
+  font-size: var(--font-size);
+  color: var(--color);
+}

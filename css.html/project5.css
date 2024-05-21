@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #dc1919;
+}
+.p-img1 {
+  background-image: url(../images/4k-nature-ztbad1qj8vdjqe0p.jpg);
+  min-height: 100%;
+}
+.p-img2 {
+  background-image: url(../images/4k-nature-ztbad1qj8vdjqe0p.jpg);
+  min-height: 100%;
+}
+
+.p-img3 {
+  background-image: url(../images/Snapchat-1578727141.jpg);
+  min-height: 100%;
+}
+
+.p-text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.text-Bg {
+  background: #dc1919;
+  color: bisque;
+  padding: 25px;
+}
+.section-lite {
+  padding: 50px 85px;
+  text-align: center;
+  background-color: rgb(11, 11, 11);
+  color: aqua;
+}
+.section-dark {
+  padding: 50px 85px;
+  text-align: center;
+  background-color: rgb(243, 232, 232);
+  color: rgb(14, 15, 15);
+}

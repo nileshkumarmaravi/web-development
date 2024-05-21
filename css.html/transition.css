@@ -1,0 +1,100 @@
+.container{
+    color: blueviolet;
+        border: 1px solid;
+        width: 50%;
+        background-color: black;
+        transition: 1s all;
+        cursor: pointer;
+}
+.container:hover{
+    width: 60%;
+    background-color: beige;
+    font-size: 30px;
+}
+.conect{
+    color: blue;
+    border: 1px solid;
+    background-color: brown;
+    transition: 0.7s ease-in;
+    cursor: pointer;
+}
+.conect:hover{
+    width: 70%;
+    background-color: black;
+    font-size: 30px;
+}
+.content{
+    color: rgb(18, 18, 20);
+    border: 1px solid;
+    background-color: rgb(5, 167, 22);
+    transition: 0.9s step-end;
+    cursor: pointer;
+}
+.photo{
+    border: 1px solid;
+        padding: 6px;
+        width: 50vw;
+        height: 50vh;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+}
+
+.content:hover {
+    width: 80%;
+    background-color: rgb(147, 18, 18);
+    font-size: 10px;
+}
+
+img-photo{
+    width:100%;
+}
+.photo::after{
+    content: "";
+    position:absolute;
+    left: -100%;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 255, 243, 0.902);
+    transition: 1s all;
+}
+.photo:hover::after{
+    left: 0;
+}
+.pic{
+    border: 1px solid;
+        padding: 0px;
+            width: 60vw;
+            height: 50vh;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+}
+img-pic{
+    width: 100%;
+}
+.pic::after{
+     content: "";
+    position:absolute;
+    left: -100%;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(181, 226, 118, 0.902);
+    transition: 1s ease-in;
+}
+.pic:hover::after{
+    left: 0;
+}
+.btn{
+    border: 1px solid;
+    color: blanchedalmond;
+    background-color: black;
+}
+.button-1{
+    color: blanchedalmond;
+    background-color: blue;
+    padding: 2px;
+    margin: 2px;
+}

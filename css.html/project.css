@@ -1,0 +1,76 @@
+.container{
+    border: 2px seashell;
+    margin: -4px;
+    height: 227px;
+        
+}
+.container > section{
+    display: inline-block;
+}
+.bike image{
+    border: 2px rgb(206, 203, 200);
+    width: 250px;
+    border-radius: 1px;
+    padding: 20px 0px;
+}
+.sec image{
+    width: 200px;
+}
+.prod details{
+    table-layout: fixed;
+    text-align: center;
+    margin: -199px 185px 164px 275px;
+    
+}
+.rating{
+    font-size: 18px;
+        font-weight: bold;
+        background-color: #388e3c;
+        color: white;
+        padding: 4px 6px;
+        border-radius: 9px;
+}
+.prod-name{
+    cursor: pointer;
+}
+.price details{
+    margin-right: 30px;
+    font-weight: 800;
+    font-size: 18px;
+}
+.per-off {
+    color: #388e3c;
+    padding: 9px;
+    margin: 7px;
+    
+}
+.orgi-price {
+text-decoration: line-through;
+    color: darkkhaki;
+    padding: 11px;
+    margin: 5px;
+}
+.dis-price{
+    padding: 10px;
+    margin: 3px;
+}
+.btn{
+    padding: 12px;
+   text-align: center;
+}
+.btn1,
+.btn2 {
+    margin-right: 60px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 14px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.btn1{
+    background-color: #146cda;;
+}
+.btn2{
+    background-color:rgb(36, 218, 36) ;
+}

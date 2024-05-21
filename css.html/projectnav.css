@@ -1,0 +1,46 @@
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+  header nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 3rem;
+      width: 100%;
+      color: white;
+      background-color: rgb(20, 108, 218);
+  }
+nav h1{
+font-family: "Sonsie One", system-ui;
+font-size: 25px;
+padding: 17px 1px;
+margin: 0px;
+}
+.icon-section{
+display: flex;
+    width: 40%;
+    font-size: 26px;
+    align-items: center;
+    justify-content: space-between;
+}
+.list-item{
+    list-style: none;
+    cursor: pointer;
+
+    position: relative;
+}
+.list-item:hover{
+    outline: 2px solid;
+    border-radius: 12px;
+}
+.icon-quty{
+    position: absolute;
+        background-color: black;
+        font-size: 18px;
+        padding: 0 5px;
+        border-radius: 50%;
+        top: 0;
+        right: -5px;
+}
+
